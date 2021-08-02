@@ -1,6 +1,8 @@
 # OS MODULE FUNCTIONALITIES
 import os
 
+
+
 divider = "============================================"
 
 # Shows attrib & methods:
@@ -73,7 +75,11 @@ for dirpath, dirnames, filenames in os.walk("C:/Users/John/OneDrive/Documents/My
 
 # Access Environment Variables: 
 #os.environ.get()
-print(os.environ.get('HOME'))
+#print(os.environ.get('HOME'))
+
+os.environ = "C:/Users/John/OneDrive/Documents/My Files/Python - Projects/PY Scripts"
+
+print(os.environ)
 
 
 # Create a new file within the 'HOME' Directory:
