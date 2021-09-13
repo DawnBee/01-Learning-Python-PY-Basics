@@ -1,0 +1,48 @@
+[INFO] {2021-09-13 18:50:36,024} Logged: Mark Hamberg is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:50:36,024} Logged: Ania Kúbow is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:50:36,024} Logged: Mark Zuckerberg is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:51:03,031} Logged: Mark Hamberg is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:51:03,031} Logged: Ania Kúbow is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:51:03,031} Logged: Mark Zuckerberg is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:51:20,824} Logged: Mark Hamberg is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:51:20,824} Logged: Mark Zuckerberg is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:55:12,291} Logged: Mark Hamberg is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:55:12,291} Logged: Ania Kúbow is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:55:12,291} Logged: Mark Zuckerberg is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:59:40,776} Logged: Mark Hamberg is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:59:40,776} Logged: James Anderson is an instance of the class 'Employee'.
+[INFO] {2021-09-13 18:59:40,776} Logged: George Burns is an instance of the class 'Employee'.
+[INFO] {2021-09-13 19:11:50,183} Logged: James Anderson is an instance of the class 'Employee'.
+[INFO] {2021-09-13 19:12:29,618} Logged: James Anderson is an instance of the class 'Employee'.
+[INFO] {2021-09-13 19:51:24,335} Logged: James Anderson is an instance of the class 'Employee'.
+[INFO] {2021-09-13 19:52:19,611} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 19:59:32,182} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 20:01:38,502} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Mark Hamberg'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Mark Hamberg'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'James Anderson'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'James Anderson'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'George Burns'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'George Burns'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Trevor Bolts'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Trevor Bolts'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Hannah Collins'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Hannah Collins'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Kevin White'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Kevin White'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Brad Schiff'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Brad Schiff'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Ania Kúbow'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Ania Kúbow'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Corey Schafer'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Corey Schafer'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Mark Zuckerberg'.
+[INFO] {2021-09-13 20:05:00,103} Created the object 'Mark Zuckerberg'.
+[INFO] {2021-09-13 20:05:02,107} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 20:05:02,107} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 20:06:16,524} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 20:06:16,524} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 20:06:37,974} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 20:06:37,974} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 20:06:48,002} Logged: Trevor Bolts is an instance of the class 'Employee'.
+[INFO] {2021-09-13 20:06:48,002} Logged: Trevor Bolts is an instance of the class 'Employee'.
