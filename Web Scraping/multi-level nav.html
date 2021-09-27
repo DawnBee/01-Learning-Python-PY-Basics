@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Column Layout </title>
+	<!-- Css Styling -->
+	<style type="text/css">
+	/* Header Section */
+	#header ul {
+		margin: 0;
+		padding: 0;
+		background-color: #77ff33;
+		border: 1px solid inherit;
+		border-radius: 5px;
+	}
+
+	#header ul li {
+		float: left;
+		list-style-type: none;
+	}
+
+	#header ul .drop-first a {
+		border-right: none;
+	}
+
+	#header ul .last a {
+		border-right: none;
+	}
+
+	#header ul li a {
+		display: block;
+		padding: 7px 15px;
+		text-decoration: none;
+		color: #ffffff;
+		font: bold 1.5em Verdana, Helvetica, sans-serif;
+		border-right: 3px solid  #44cc00;
+	}
+
+	#header ul li:hover, #header ul li:active {
+		background-color: #44cc00;
+	}
+
+	#header ul .drop-first {
+		position: absolute;
+		left: -999em;
+	}
+
+	#header ul .drop-second {
+		position: absolute;
+		left: -999em;
+	}
+
+	#header ul .drop-third {
+		position: absolute;
+		left: -999em;
+	}
+
+	#header ul li:hover .drop-first {
+		text-align: center;
+		left: auto;
+	}
+
+	#header ul .drop-first .level-drop:hover .drop-second {
+		text-align: center;
+		left: 100%;
+		bottom: -159px;
+	}
+
+	#header ul .drop-first .level-drop .drop-second .level-drop:hover .drop-third {
+		text-align: center;
+		left: 100%;
+		bottom: -145.5px;
+	}
+
+	#header .level-drop:hover, #header .level-drop:active {
+		background-color: #44cc00;
+	}
+
+	#header ul .drop-first li {
+		float: none;
+	}
+
+	#header ul .drop-second li {
+		float: none;
+	}
+	/* End of Header Section */
+
+
+	/* Body Section */
+	#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 20px;
+
+	}
+
+	body {
+		background-color: rgb(204, 255, 255);
+		font-size: 100%;
+
+	}
+
+	#body .First, #body .Second, #body .Third {
+		width: 300px;
+		height: auto;
+		float: left;
+	}
+
+	#body .First .inner, #body .Second .inner, #body .Third .inner {
+		padding: 0 30px 0 0;
+		text-align: justify;
+	}
+
+	#body p {
+		text-indent: 50px;
+		font: 1.2em Helvetica, Verdana, sans-serif;
+	}
+
+	#body h2 {
+		font: bold 1.7em Verdana, Helvetica sans-serif;
+		text-align: center;
+		text-shadow: 3px 4px 3px gray;
+	}
+	/* End of Body Section */
+
+	/* Footer Section */
+	#footer {
+		font: 1.2em Helvetica, Verdana, sans-serif;
+		text-align: center;
+	}
+
+
+	/* For clearing floats */
+	.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+	}
+
+	.clearfix {display: inline-block;}
+
+	/* Hides from IE-mac \*/
+	* html .clearfix {height: 1%;}
+	.clearfix {display: block;}
+	/* End hide from IE-mac */
+
+	</style>
+	<!-- Css Styling -->
+
+</head>
+<body>
+	<!-- Container -->
+	<div id="container">
+		<!-- Header -->
+		<div id="header">
+			<nav>
+				<!-- Navigation Bar -->
+				<ul class="clearfix">
+					<li><a href="#"> Home </a></li>
+					<li><a href="#"> About </a></li>
+					<li><a href="#"> Contact </a></li>
+					<li><a href="#"> FAQ </a></li>
+					<li class="last"><a href="#"> Videos </a>
+						<!-- 1st Level Dropdown -->
+						<ul class="drop-first">
+							<li><a href="#"> Video: 1 </a></li>
+							<li><a href="#"> Video: 2 </a></li>
+							<li><a href="#"> Video: 3 </a></li>
+							<li><a href="#"> Video: 4 </a></li>
+							<li class="level-drop last"><a href="#"> Final Series </a>
+								<!-- 2nd Level Dropdown -->
+								<ul class="drop-second"> 
+									<li><a href="#"> Part: 1 </a></li>
+									<li><a href="#"> Part: 2 </a></li>
+									<li><a href="#"> Part: 3 </a></li>
+									<li class="level-drop last"><a href="#"> Special Episodes </a>
+										<!-- 3rd Level Dropdown -->
+										<ul class="drop-third">
+											<li><a href="#"> Episode: A </a></li>
+											<li><a href="#"> Episode: B </a></li>
+											<li class="last"><a href="#"> Episode: C </a></li>
+										<!-- 3rd Level Dropdown Ends -->
+										</ul>
+									</li>
+								<!-- 2nd Level Dropdown Ends -->
+								</ul>
+							</li>
+						<!-- 1st Level Dropdown Ends -->
+						</ul>
+					</li>
+				<!-- Navigation Bar Ends -->
+				</ul>
+			</nav>
+		<!-- Header -->
+		</div>
+		<!-- Body -->
+		<div id="body" class="clearfix">
+			<div class="First"><div class="inner">
+				<h2> This is our 1st column </h2>
+				<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. </p>
+
+				<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. </p>
+			</div></div> 
+
+			<div class="Second"><div class="inner">
+				<h2> This is our 2nd column </h2>
+				<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. </p>
+
+				<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. </p>
+			</div></div>
+
+			<div class="Third"><div class="inner">
+				<h2> This is our 3rd column </h2>
+				<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. </p>
+
+				<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. </p>
+			</div></div>
+			
+		<!-- Body Ends -->
+		</div>
+		<!-- Footer -->
+		<div id="footer">
+			<p> © 2021 | Terms of Service | EULA </p>
+		<!-- Footer Ends -->
+		</div>
+	<!-- Container -->
+	</div>
+
+</body>
+</html>

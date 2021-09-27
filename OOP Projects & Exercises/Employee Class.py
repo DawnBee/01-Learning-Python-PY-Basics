@@ -163,7 +163,7 @@ class Developer(Employee):
 			print("{} is a full-stack developer".format(self.fullname))
 
 dev_1 = Developer('Brad','Schiff',8000,'Html')
-dev_2 = Developer('Ania','Kúbow',9000,'Java')
+dev_2 = Developer('Ania','Kubów',9000,'Java')
 dev_3 = Developer('Corey','Schafer',10000,'Python & Java')
 
 class Manager(Employee):

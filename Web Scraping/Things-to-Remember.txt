@@ -1,0 +1,18 @@
+<<<--THINGS TO REMEMBER-->>>
+
+• If you want to scrape data from large websites like facebook and twitter it would be helpful, if you
+first investigate on whether they have a public API, because big comapanies provide developers with public
+API to serve up data in a more effecient way.
+
+• Websites know if you are requesting data from their sites and they might not like it if you are doing it 
+manually, so better check for their API's first.
+
+• Manually scraping data is effective and reliable to small or medium size websites.
+
+• Requesting data from a website too excessively might slow the website, so be aware.
+
+• Some websites block requests if you hammer them frequently.
+
+*******>>>>>>Credits To:<<<<<<*******
+	Mr. Corey Schafer
+	Author of: "coreyms.com"
